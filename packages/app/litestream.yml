@@ -1,0 +1,9 @@
+dbs:
+ - path: $DB_PATH
+   replicas:
+     - type: s3
+       bucket: $REPLICATE_BUCKET_NAME
+       path: $REPLICATE_PATH
+       region: ap-northeast-1
+       retention: 120h
+       snapshot-interval: 30s
