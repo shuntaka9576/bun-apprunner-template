@@ -1,5 +1,9 @@
 # bun-apprunner-template
 
+## Architecture
+
+![img](https://devio2023-media.developers.io/wp-content/uploads/2023/09/9fdc60260ed6fc2a7efce78f9d134dc1.png)
+
 ## Requirements
 
 - [Bun](https://bun.sh/)
